@@ -6,7 +6,7 @@ Collection of 23 (GoF) design patterns implemented in JavaScript using both prot
 
 The patterns can be divided in three different categories.
 
-### Creational
+### [Creational](src/creational)
 
 Creational patterns provide ways to instantiate single objects or groups of related objects.
 
@@ -20,6 +20,42 @@ Creational patterns provide ways to instantiate single objects or groups of rela
 
 * [Singleton](src/creational/singleton) - ensure a class has only one instance, and provide a global point of access to it. [Read more.](http://robdodson.me/javascript-design-patterns-singleton/)
 
-### Structural
+### [Structural](src/structural)
 
-### Behavioral
+* [Adapter]()
+
+* [Bridge]()
+
+* [Composite]()
+
+* [Decorator]()
+
+* [Facade]()
+
+* [Flyweight]()
+
+* [Proxy]()
+
+### [Behavioral](src/behavioral)
+
+* [Chain of responsibility]()
+
+* [Command]()
+
+* [Interpreter]()
+
+* [Iterator]()
+
+* [Mediator]()
+
+* [Memento]()
+
+* [Observer]()
+
+* [State]()
+
+* [Strategy]()
+
+* [Template]()
+
+* [Visitor]()
