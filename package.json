@@ -1,0 +1,12 @@
+{
+    "name": "design-patterns-javascript",
+    "version": "1.0.0",
+    "description": "GoF Design patterns implemented in JavaScript",
+    "main": "index.js",    
+    "author": "Boban Piskulic",
+    "keywords": [
+        "design",
+        "patterns",
+        "gof"
+    ]
+}
