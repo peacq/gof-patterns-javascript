@@ -20,42 +20,44 @@ Creational patterns provide ways to instantiate single objects or groups of rela
 
 * [Singleton](src/creational/singleton) - ensure a class has only one instance, and provide a global point of access to it. [Read more.](http://robdodson.me/javascript-design-patterns-singleton/)
 
-### [Structural](src/structural)
+### [Structural](src/structural) 
 
-* [Adapter]()
+Structural patterns concern class and object composition. They use inheritance to compose interfaces and define ways to compose objects to obtain new functionality.
 
-* [Bridge]()
+* [Adapter](src/structural/adapter) - allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class. [Read more.](https://thejsguy.com/2015/10/16/the-adapter-pattern-in-javascript.html)
 
-* [Composite]()
+* [Bridge](src/structural/bridge) - decouples an abstraction from its implementation so that the two can vary independently. [Read more.](https://www.joezimjs.com/javascript/javascript-design-patterns-bridge/)
 
-* [Decorator]()
+* [Composite](src/structural/composite) - composes zero-or-more similar objects so that they can be manipulated as one object. [Read more.](https://www.joezimjs.com/javascript/javascript-design-patterns-composite/)
 
-* [Facade]()
+* [Decorator](src/structural/decorator) - dynamically adds/overrides behaviour in an existing method of an object. [Read more.](http://robdodson.me/javascript-design-patterns-decorator/)
 
-* [Flyweight]()
+* [Facade](src/structural/facade) - provides a simplified interface to a large body of code. [Read more.](https://www.joezimjs.com/javascript/javascript-design-patterns-facade/)
 
-* [Proxy]()
+* [Flyweight](src/structural/flyweight) - reduces the cost of creating and manipulating a large number of similar objects. [Read more.](http://www.dofactory.com/javascript/flyweight-design-pattern)
+
+* [Proxy](src/structural/proxy) - provides a placeholder for another object to control access, reduce cost, and reduce complexity. [Read more.](http://www.dofactory.com/javascript/proxy-design-pattern)
 
 ### [Behavioral](src/behavioral)
 
-* [Chain of responsibility]()
+* [Chain of responsibility](src/behavioral/chainOfResp) - delegates commands to a chain of processing objects. [Read more.](https://www.joezimjs.com/javascript/javascript-design-patterns-chain-of-responsibility/)
 
-* [Command]()
+* [Command](src/behavioral/command) - creates objects which encapsulate actions and parameters. [Read more.](https://www.joezimjs.com/javascript/javascript-design-patterns-command/)
 
-* [Interpreter]()
+* [Interpreter](src/behavioral/interpreter) - implements a specialized language. [Read more.](http://www.dofactory.com/javascript/interpreter-design-pattern)
 
-* [Iterator]()
+* [Iterator](src/behavioral/iterator) - accesses the elements of an object sequentially without exposing its underlying representation. [Read more.](http://robdodson.me/javascript-design-patterns-iterator/)
 
-* [Mediator]()
+* [Mediator](src/behavioral/mediator) - allows loose coupling between classes by being the only class that has detailed knowledge of their methods. [Read more.](http://www.dofactory.com/javascript/mediator-design-pattern)
 
-* [Memento]()
+* [Memento](src/behavioral/memento) - provides the ability to restore an object to its previous state (undo). [Read more.](http://www.dofactory.com/javascript/memento-design-pattern)
 
-* [Observer]()
+* [Observer](src/behavioral/observer) - is a publish/subscribe pattern which allows a number of observer objects to see an event. [Read more.](https://medium.com/@patrickackerman/the-observer-pattern-with-vanilla-javascript-8f85ea05eaa8)
 
-* [State]()
+* [State](src/behavioral/state) - allows an object to alter its behavior when its internal state changes. [Read more.](https://medium.com/@patrickackerman/the-state-pattern-with-vanilla-javascript-e40ff83e85d0)
 
-* [Strategy]()
+* [Strategy](src/behavioral/strategy) - allows one of a family of algorithms to be selected on-the-fly at runtime. [Read more.](http://robdodson.me/javascript-design-patterns-strategy/)
 
-* [Template]()
+* [Template](src/behavioral/template) - method defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior. [Read more.](https://thejsguy.com/javascript/design%20patterns/2015/01/01/template-method-pattern.html)
 
-* [Visitor]()
+* [Visitor](src/behavioral/visitor) - separates an algorithm from an object structure by moving the hierarchy of methods into one object. [Read more.](http://www.dofactory.com/javascript/visitor-design-pattern)
